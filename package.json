@@ -1,0 +1,45 @@
+{
+  "name": "gitbook-plugin-plasma",
+  "description": "This is a GitBook plugin I am using for authoring my blog. It is not ready for public consumption yet.",
+  "main": "index.js",
+  "version": "1.0.1",
+  "engines": {
+    "gitbook": "2.6.x"
+  },
+  "homepage": "https://github.com/airbornemint/gitbook-plugin-plasma",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airbornemint/gitbook-plugin-plasma.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/airbornemint/gitbook-plugin-plasma/issues"
+  },
+  "dependencies": {
+    "front-matter": "2.x",
+    "gitbook-parsers": "0.8.x",
+    "extend": "3.0.x",
+    "cheerio": "0.19.x",
+    "dom-serializer": "0.1.x",
+    "gitbook": "2.6.x",
+    "q": "1.4.x",
+    "strftime": "0.9.x",
+    "sprintf-js": "1.x",
+    "jimp": "0.2.x",
+    "highlight.js": "9.x",
+    "lodash": "4.x",
+    "fs-extra": "0.26.x"
+  },
+  "devDependencies": {
+    "mocha": "2.x",
+    "should": "7.x"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --bail --full-trace test/*.js"
+  },
+  "keywords": [
+    "gitbook",
+    "blog"
+  ],
+  "author": "Ben Artin <ben@artins.org> (http://artins.org/ben)"
+}
